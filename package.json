@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-start",
+  "version": "1.0.0",
+  "description": "InternSite Landing Page",
+  "scripts": {
+    "dev": "tailwindcss -i ./input.css -o ./output.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}
