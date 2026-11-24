@@ -4,21 +4,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>InternSite | Landing Page</title>
-
+    <title>InternSite | Modern Web Development</title>
     <link rel="stylesheet" href="./output.css">
 </head>
 
 <body class="bg-white text-slate-900">
 
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-50 border-b border-emerald-100 bg-white/95 backdrop-blur-md">
+
+        <nav class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4">
+
+            <!-- LOGO -->
+            <a href="#home" class="flex items-center gap-3">
+                <span
+                    class="flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-600 text-xl font-extrabold text-white">
+                    IS
+                </span>
+
+                <span class="text-xl font-extrabold">
+                    Intern<span class="text-emerald-600">Site</span>
+                </span>
+            </a>
+
+            <!-- DESKTOP LINKS -->
+            <ul class="hidden items-center gap-8 font-semibold text-slate-700 md:flex">
+                <li><a href="#home" class="hover:text-emerald-600">Home</a></li>
+                <li><a href="#features" class="hover:text-emerald-600">Features</a></li>
+                <li><a href="#contact" class="hover:text-emerald-600">Contact</a></li>
+            </ul>
+
+            <!-- CTA -->
+            <a href="#contact"
+                class="hidden rounded-xl bg-emerald-600 px-5 py-3 font-semibold text-white transition duration-300 hover:bg-emerald-700 sm:inline-block">
+                Let's Talk →
+            </a>
+
+            <!-- MOBILE MENU -->
+            <details class="relative md:hidden">
+                <summary
+                    class="cursor-pointer list-none rounded-lg border border-emerald-200 px-3 py-2 text-emerald-700">
+                    Menu
+                </summary>
+
+                <div class="absolute right-0 top-full mt-3 w-44 rounded-xl bg-white p-4 shadow-xl">
+                    <a href="#home" class="block py-2">Home</a>
+                    <a href="#features" class="block py-2">Features</a>
+                    <a href="#contact" class="block py-2">Contact</a>
+                </div>
+            </details>
+
+        </nav>
+    </header>
+
     <main>
-        <!-- HERO SECTION -->
 
-        <!-- FEATURES SECTION -->
+        <!-- SECTION 1: HERO -->
+        <section id="home" class="bg-linear-to-br from-white via-emerald-50 to-teal-50 py-20">
 
-        <!-- CONTACT SECTION -->
+            <div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 md:grid-cols-2">
+
+                <!-- HERO CONTENT -->
+                <div>
+
+                    <p class="mb-5 text-sm font-extrabold tracking-widest text-emerald-700">
+                        CREATIVE WEB DEVELOPMENT
+                    </p>
+
+                    <h1 class="text-4xl font-extrabold leading-tight text-slate-950 sm:text-5xl lg:text-6xl">
+                        Build Modern
+                        <span class="block">Web</span>
+                        <span class="block text-emerald-600">
+                            Experiences.
+                        </span>
+                    </h1>
+
+                    <p class="mt-6 max-w-lg text-lg leading-8 text-slate-600">
+                        We create clean, modern and responsive
+                        web experiences using HTML5 and
+                        Tailwind CSS.
+                    </p>
+
+                    <a href="#features"
+                        class="mt-8 inline-flex items-center gap-3 rounded-xl bg-linear-to-r from-emerald-600 to-teal-500 px-8 py-4 font-bold text-white shadow-lg shadow-emerald-600/20 transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:from-emerald-700 hover:to-teal-600">
+                        Get Started <span aria-hidden="true">→</span>
+                    </a>
+
+                </div>
+
+                <!-- HERO ILLUSTRATION -->
+                <div class="rounded-3xl bg-emerald-100/70 p-6 sm:p-10">
+
+                    <div class="rounded-2xl bg-slate-900 p-4 shadow-2xl">
+
+                        <!-- WINDOW DOTS -->
+                        <div class="mb-5 flex gap-2" aria-hidden="true">
+                            <span class="h-3 w-3 rounded-full bg-red-400"></span>
+                            <span class="h-3 w-3 rounded-full bg-yellow-400"></span>
+                            <span class="h-3 w-3 rounded-full bg-green-400"></span>
+                        </div>
+
+                        <!-- SCREEN -->
+                        <div class="min-h-64 rounded-lg bg-slate-950 p-6">
+
+                            <p class="mb-6 text-lg font-extrabold text-emerald-400">
+                                InternSite
+                            </p>
+
+                            <div class="space-y-4">
+                                <div class="h-3 w-3/4 rounded-full bg-emerald-500"></div>
+                                <div class="h-3 w-1/2 rounded-full bg-cyan-400"></div>
+                                <div class="h-3 w-5/6 rounded-full bg-slate-600"></div>
+                                <div class="h-3 w-2/3 rounded-full bg-teal-400"></div>
+                            </div>
+
+                            <div
+                                class="mt-8 inline-block rounded-lg border border-emerald-400/30 bg-emerald-500/10 px-5 py-3 text-2xl font-bold text-emerald-400">
+                                &lt;/&gt;
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- LAPTOP BASE -->
+                    <div class="mx-auto h-4 w-full rounded-b-full bg-linear-to-b from-slate-300 to-slate-400"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SECTION 2: FEATURES WILL BE ADDED HERE -->
+
+        <!-- SECTION 3: CONTACT WILL BE ADDED HERE -->
+
     </main>
 
 </body>
+
 </html>
